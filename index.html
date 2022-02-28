@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            width: 100%;
+           display: inline-block;
+            background-color:#333333 ;
+            
+        
+        }
+        .nav h1{
+            margin: 30px 0px 0px 0px;
+        }
+        .nav p{
+            color: #989898;
+            display: inline-block;
+        }
+        .nav .contnar {
+            width: 960px;
+            
+            overflow: auto;
+            margin: auto;
+        }
+        
+        .navbar {
+            
+            float: right;
+            display: block;
+            padding: 20px 0;
+            color: #C0BAB6;
+            background-color: #232323;
+            margin: -36px 0px 31px 0px;
+
+
+        }
+        
+        .navbar li a {
+            color: #C0BAB6;
+            text-decoration: none;
+            text-align: center;
+            font-size: 15px;
+        }
+        
+        .navbar ul {
+            float: right;
+        }
+        
+        .navbar ul li {
+            float: left;
+            width: 79px;
+            list-style-type: none;
+            margin: 0px 9px 0 21px;
+            transition: 0.2s;
+        }
+        .nav:hover li {
+            color: #FF9900;
+            
+        }
+        
+        .navbar-brand {
+            text-decoration: none;
+            color: #C0BAB6;
+            font-size: 36px;
+            display: inline-block;
+            
+        }
+        .contenar{
+            width: 960px;
+            margin: auto;
+           
+        }
+        .row{
+            display: inline-block;
+        }
+       
+        .mainbox{
+            width: 960px;
+            height: 300px;
+            padding: 4% 0;
+            box-sizing: border-box;
+            margin: auto;
+        }
+       
+    .mainbox .box1{
+      
+         float: left;
+         width: 280px;
+         height: 260px;
+         padding: 20px;
+         color: #989898;
+         background-color: #DEDEDE;
+        
+
+    }
+    .mainbox .box2{
+        height: 300px;
+        width: 630px;
+        background-color: #333333;
+        float: right;
+    
+       
+        
+    }
+    .mainbox .box1 h2{
+        font-size: 42px;
+        font-style: italic;
+        color: #989898;
+    }
+    .mainbox .box1  p{
+        color: #989898;
+        margin: 17px -2px;
+    }
+    .mainbox .box1 h3{
+        font-size: 14px;
+        text-align: right;
+        color: #FF9900;
+    }
+    .mainbox .box2 h1{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        padding:20% 0;
+        box-sizing: border-box;
+    }
+
+    .lorembox{
+        width: 960px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .box1{
+        width: 300px;
+        height: 300px;
+        float: left;
+        padding: 0 7px;
+    }
+    .lorembox .box1{
+        font-size: 12px;
+    margin-bottom: 15px;
+    color: #989898;
+    }
+    .lorembox .box1 h2 {
+        margin: 0px 0 12px 0px;
+    }
+    .lorembox .box1 p {
+        font-size: 15px;
+        margin: 10px;
+    }
+    .lorembox .box1 .minibox{
+        width: 80px;
+        height: 80px;
+        background-color: #333333;
+    }
+    .lorembox .box1 .minibox h3{
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        padding: 37% 0%;
+    }
+     .lorembox .box1 h4{
+        font-size: 14px;
+        text-align: right;
+        color: #FF9900;
+     }
+         .lorembox .box1 img {
+            
+            float: left;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px 10px 0;
+    padding: 4px;
+    border: 1px solid #DEDEDE;
+}
+
+
+     .lastbox {
+         width: 960px;
+         height: 246px;
+     } 
+     .lastbox .box{
+         height: 246px;
+         width: 225px;
+         float: left;
+         padding: 7px;
+     } 
+     .lastbox .box .minibox{
+         width: 215px;
+         height: 100px;
+         background-color: #333333;
+     }
+     .lastbox .box .minibox h2{
+        color: white;
+        text-align: center;
+         padding: 17% 0%;
+     }
+     .lastbox .box h1{
+        color: #989898;
+        font-size: 16px;
+        margin: 10px 0 10px 0px;
+     } 
+     .lastbox .box p{
+        color: #989898;
+ 
+     } 
+     .lastbox .box h4 {
+        font-size: 14px;
+        text-align: right;
+        color: #FF9900;
+        margin: 13px 0px 0px 0;
+
+     } 
+     .lastbox .box img{
+        margin: 0 0 10px 0;
+    padding: 4px;
+    border: 1px solid #D6D6D6;
+           
+        
+     }
+     .nav2{
+         width: 100%;
+         height: 50px;
+         background-color:#333333 ;
+         display: inline-block;
+     }
+     .nav2 p{
+        color: #989898;
+        padding: 17px 30px;
+
+     }
+     .nav2 h1{
+         float: right;
+         color: #989898;
+         font-size: 15px;
+         margin: -36px;
+
+     }
+     .nav2 .contenar{
+         width: 80%;
+     }
+      
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="contnar">
+     <h1>   <a class="navbar-brand" href="#">Basic 86 </a></h1>
+        <p>Free HTML5 Website Template
+        </p>
+     
+
+        <div class="navbar">
+
+            <ul>
+                <li><a href="#">TEXTLINK</a></li>
+                <li><a href="#">TEXTLINK</a> </li>
+                <li><a href="#">TEXTLINK</a></li>
+                <li><a href="#">TEXTLINK</a></li>
+                <li><a href="#">TEXTLINK</a></li>
+            
+            </ul>
+
+        </div>
+    </div>
+    
+
+     </div>
+
+   </div>
+
+   <div class="contenar">
+       <div class="row">
+       <div class="mainbox">
+           <div class="box">
+           <div class="box1">
+            <h2>Eu justo augue estas</h2>
+            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
+            <h3>Read More »</h3>
+           </div>
+        </div>
+           <div class="box2">
+               <h1>630 x 300px</h1>
+           </div>       
+        </div>
+    </div>
+    <div class="lorembox">
+        <div class="box1">
+            <h2>LORUM IPSUM DOLOR</h2>
+           <img src="img/80x80.gif" alt="">
+           <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.</p>
+            <h4>Read More »</h4>
+
+        </div>
+        <div class="box1">
+            <h2>LORUM IPSUM DOLOR</h2>
+            <img src="img/80x80.gif" alt="">
+            <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.</p>
+            <h4>Read More »</h4>
+
+        </div>
+        <div class="box1">
+            <h2>LORUM IPSUM DOLOR</h2>
+            <img src="img/80x80.gif" alt="">
+           <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.</p>
+            <h4>Read More »</h4>
+
+        </div>
+    </div>
+    <div class="lastbox">
+        <div class="box">
+          <img src="img/215x100.gif" alt="">
+            <h1>INDONECTETUS FACILIS</h1>
+            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+            <h4>Read More »</h3>
+
+        </div>
+        <div class="box">
+            <img src="img/215x100.gif" alt="">
+
+            <h1>INDONECTETUS FACILIS</h1>
+            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+            <h4>Read More »</h3>
+
+        </div>
+        <div class="box">
+            <img src="img/215x100.gif" alt="">
+
+            <h1>INDONECTETUS FACILIS</h1>
+            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+            <h4>Read More »</h3>
+
+        </div>
+        <div class="box">
+            <img src="img/215x100.gif" alt="">
+
+            <h1>INDONECTETUS FACILIS</h1>
+            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+            <h4>Read More »</h3>
+
+        </div>
+    </div>
+   </div>
+   <br>
+   <br>
+   
+   <div class="nav2">
+       <div class="contenar">
+       <p>Copyright © 2009 - 2022 - All Rights Reserved - Domain Name</p>
+       <h1>Template by OS Templates</h1>
+    </div>
+   </div>
+    
+</body>
+</html>
